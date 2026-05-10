@@ -1,22 +1,22 @@
 # FunPay Gift Bot
 
-Бот для автоматической отправки уведомлений покупателям на FunPay после оплаты заказа.
+A bot for automatically sending notifications to buyers on FunPay after an order is paid.
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![FunPayBotEngine](https://img.shields.io/badge/FunPayBotEngine-latest-green.svg)
 ![Asyncio](https://img.shields.io/badge/Asyncio-3.7+-orange.svg)
 
-## О проекте
+## About the Project
 
-FunPay Gift Bot - это асинхронный бот для платформы FunPay, который автоматически отслеживает новые оплаченные заказы и отправляет покупателям уведомление о отправке подарка с извлечением имени аккаунта из названия заказа.
+FunPay Gift Bot is an asynchronous bot for the FunPay platform that automatically tracks new paid orders and sends buyers a notification about the gift being sent, extracting the account name from the order title.
 
-### Возможности
+### Features
 
-- Автоматическое отслеживание новых оплаченных заказов в реальном времени
-- Обработка уже существующих оплаченных заказов при запуске
-- Извлечение имени аккаунта из заголовка заказа
-- Автоматическое определение chat_id для отправки сообщений
-- Отправка персонализированных сообщений с упоминанием аккаунта покупателя
-- Асинхронная архитектура для высокой производительности
-- Логирование всех действий в консоль
-- Устойчивость к ошибкам сети и API
+- Real-time automatic tracking of new paid orders
+- Processing of existing paid orders on startup
+- Extraction of account name from the order title
+- Automatic detection of chat_id for sending messages
+- Sending personalized messages mentioning the buyer's account
+- Asynchronous architecture for high performance
+- Logging of all actions to the console
+- Resilience to network and API errors
